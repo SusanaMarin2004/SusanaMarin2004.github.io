@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.viñeta{
+    
+    display: flex;
+    justify-content: center;
+}
+
+.fondo{
+    width: 1280px;
+    height: 720px;
+    position: relative;
+    background-color: black;
+}
+.interaccion{
+animation: sangre 2s forwards;
+}
+
+@keyframes sangre {
+    0%{
+        background-color: black;
+    }
+
+    100%{
+        background-color: red;
+    }
+}
+
+.circulo-caja{
+    position: absolute;
+    width: 8%;
+    margin-top: 20%;
+
+}
+.circulo{
+    width: 100%;
+    cursor: pointer;
+}
+.circulo-anim{
+ animation: titilar 1s forwards infinite;
+}
+
+@keyframes titilar {
+    0%{
+        opacity: 100%;
+    }
+    
+    50%{
+        opacity: 0%;
+    }
+    
+    100%{
+        opacity: 100%;
+    }
+}
+
+.oculto{
+    display: none;
+}
