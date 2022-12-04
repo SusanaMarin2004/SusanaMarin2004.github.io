@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+}
+
+@font-face{
+    font-family: Themacabre;
+    src: url(/Typos/The\ Macabre.otf);
+}
+@font-face{
+    font-family: newspapers;
+    src: url(/Typos/OldNewspaperTypes.ttf);
+}
+body{
+    background: url(/Media/NEfondo.png);
+    
+}
+
+.barra{
+    background: url(/Media/fondoHeader.png);
+    height: 150px;
+    display: flex;
+}
+
+.logo{
+    height: 150px;
+    width: 20%;
+}
+.versi{
+    height: 140px;
+    cursor: pointer;
+    padding-left: 30%
+}
+.menuu{
+    width: 80%;
+    
+}
+nav{
+    padding-left: 193px;
+    padding-top: 34px;
+}
+.menunav{
+    text-decoration: none;
+    color: white;
+    font-family: themacabre;
+    font-size: 50px;
+    padding-right: 30px;
+
+}
+
+
+.card-title{
+    font-family: themacabre;
+    font-size: 30px;
+    color: black;
+}
+
+.card{
+    margin: auto;
+    padding-top: 40px;
+}
+
+
+.btn{
+    padding: 3px 7px 0px 3px ;
+    border-radius: 10px;
+    background-color: #B5BB8F;
+    border-color: unset;
+    margin-bottom: 100px;
+    font-family: themacabre;
+    font-size: 30px;
+}
