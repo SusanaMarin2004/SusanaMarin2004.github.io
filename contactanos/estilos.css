@@ -1,0 +1,59 @@
+.barra{
+    background: url(/Media/fondoHeader.png);
+    height: 150px;
+    display: flex;
+}
+
+@font-face{
+    font-family: Themacabre;
+    src: url(/Typos/The\ Macabre.otf);
+}
+@font-face{
+    font-family: newspapers;
+    src: url(/Typos/OldNewspaperTypes.ttf);
+}
+
+body{
+    background: url(/Media/fondo\ 4.png);
+    
+}
+
+
+.logo{
+    height: 150px;
+    width: 20%;
+}
+
+.versi{
+    height: 140px;
+    cursor: pointer;
+    padding-left: 30%
+}
+
+.menuu{
+    width: 80%;
+    
+}
+nav{
+    padding-left: 193px;
+    padding-top: 34px;
+}
+.menunav{
+    text-decoration: none;
+    color: white;
+    font-family: themacabre;
+    font-size: 50px;
+    padding-right: 30px;
+
+}
+
+.textamen{
+    padding-left: 30px;
+    width: 70%;
+    height: 70%;
+    font-family: newspapers;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    padding-top: 30px;
+}
