@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.viñeta{
+    display: flex;
+    justify-content: center;
+}
+
+.fondo{
+    width: 80%;
+    height: 93%;
+    position: relative;
+}
+
+.school{
+    width: 100%;
+}
+
+.Pj1{
+position: absolute;
+width: 1%;
+margin-top: 40%;
+}
+.Shiori{
+    width: 100%;
+}
+
+.interaccion{
+animation: Caminar 3s forwards;
+}
+@keyframes Caminar{
+
+    0%{
+        width: 1%;
+        margin-top: 40%;
+    }
+
+    99%{
+        width: 0.7%;
+        margin-top: 31%;
+        margin-left: 48%;
+        opacity: 100%;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
+
+
+.circulo-caja{
+    position: absolute;
+    width: 25%;
+    margin-top: 38%;
+    margin-left: 18.8%;
+}
+.circulo{
+    width: 25%;
+    cursor: pointer;
+}
+.circulo-anim{
+ animation: titilar 1s forwards infinite;
+}
+
+@keyframes titilar {
+    0%{
+        opacity: 100%;
+    }
+    
+    50%{
+        opacity: 0%;
+    }
+    
+    100%{
+        opacity: 100%;
+    }
+}
+
+.oculto{
+    display: none;
+}
+
+.botonera{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.controladores{
+    margin-bottom: 3%;
+}
+
+.cajasB{
+    display: flex;
+justify-content: center;
+}

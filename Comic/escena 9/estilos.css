@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.viñeta{
+    display: flex;
+    justify-content: center;
+}
+
+.fondo{
+    width: 80%;
+    height: 93%;
+    position: relative;
+}
+
+.sala{
+    width: 100%;
+}
+
+
+.shiori{
+    position: absolute;
+    background: url(./media/shioritarea.png);
+    width: 328.58px;
+    height: 187px;
+    margin-top: 33%;
+}
+
+.interaccion{
+    animation: escribir 1s steps(4) infinite;
+}
+
+@keyframes escribir {
+ 0%{
+    background-position: 0;
+ }
+
+ 100%{
+    background-position-x: -1314.3336px;
+ }
+    
+}
+
+
+.circulo-caja{
+    position: absolute;
+    width: 25%;
+    margin-top: 37%;
+    margin-left: 20.8%;
+}
+.circulo{
+    width: 25%;
+    cursor: pointer;
+}
+.circulo-anim{
+ animation: titilar 1s forwards infinite;
+}
+
+@keyframes titilar {
+    0%{
+        opacity: 100%;
+    }
+    
+    50%{
+        opacity: 0%;
+    }
+    
+    100%{
+        opacity: 100%;
+    }
+}
+
+.oculto{
+    display: none;
+}
+
+.botonera{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.controladores{
+    margin-bottom: 3%;
+}
+
+.cajasB{
+    display: flex;
+justify-content: center;
+}
