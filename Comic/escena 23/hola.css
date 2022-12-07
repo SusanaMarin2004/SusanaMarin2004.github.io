@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.viñeta{
+    display: flex;
+    justify-content: center;
+}
+
+.fondo{
+    width: 80%;
+    height: 93%;
+    position: relative;
+}
+
+.casa{
+    width: 100%;
+}
+
+
+.hiroSolo{
+    position: absolute;
+    top: 62%;
+    right: 40%;
+    width: 5.5%;
+}
+
+.pj1{
+    width: 100%;
+}
+
+
+.hiro{
+    background: url(./img/hiro2.png);
+        position: absolute;
+       right: 30%;
+        top: 62%;
+        width: 120px;
+        height: 200px;
+        margin: 0 auto; 
+       
+
+        
+}
+
+.Hirocaminado{
+    animation: walk 1s steps(4) forwards;
+}
+
+@keyframes walk {
+    0%{
+        right: 30%;
+        background-position: 0px;
+    }
+    99%{
+        right: 10%;
+        background-position: -516px;
+        opacity: 100;   
+    }
+    100%{
+        right: 10%;
+        background-position: -516px;
+        opacity: 0;   
+    }
+  }
+
+
+  .circulo{
+    position: absolute;
+    right: 39%;
+    top: 68%;
+    width: 5%;
+}
+.interaccion{
+    width: 100%;
+    cursor: pointer;
+}
+
+.titilar{
+    animation: titilando 1s forwards infinite;
+}
+
+
+@keyframes titilando{
+    0%{
+        opacity: 100%;
+    }
+    
+    50%{
+        opacity: 30%;
+    }
+    
+    100%{
+        opacity: 100%;
+    }
+    
+    }
+    
+    
+    .oculto{
+       opacity: 0;
+    }
+
+    .botonera{
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+    .controladores{
+        margin-bottom: 3%;
+    }
+    
+    .cajasB{
+        display: flex;
+    justify-content: center;
+    }
