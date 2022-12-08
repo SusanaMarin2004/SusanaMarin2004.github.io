@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.viñeta{
+    display: flex;
+    justify-content: center;
+}
+
+.fondo{
+    width: 80%;
+    height: 93%;
+    position: relative;
+}
+
+.paisaje{
+    width: 100%;
+}
+
+.Shika{
+    position: absolute;
+    width: 80px;
+    top: 225px;
+    left: 15%;
+}
+
+.pj1{
+    width: 100%;
+}
+
+
+.Shikawalk{
+    background: url(./media/ShikaSteps.png);
+    position: absolute;
+    width: 209px;
+    height: 320px;
+    top: 223px;
+    left: 15%;
+    }
+
+    .steps{
+    animation: ShikaCamina 3s steps(13) forwards;
+    }
+    
+    @keyframes ShikaCamina {
+        0%{
+            opacity: 100%;
+            background-position: 0;
+            left: 15%;
+            top: 223px;
+        }
+    
+        99%{
+            opacity: 100%;
+            background-position: -2721px;
+            left: 80%;
+            top: 223px;
+        }
+        100%{
+            opacity: 0%;
+            background-position: -2721px;
+            left: 80%;
+            top: 223px;
+        }
+    }
+
+.circulo{
+    position: absolute;
+    left: 15%;
+    top: 52%;
+    width: 6%;
+}
+.interaccion{
+    width: 100%;
+    cursor: pointer;
+}
+
+.titilar{
+    animation: titilando 1s forwards infinite;
+}
+
+
+@keyframes titilando{
+    0%{
+        opacity: 100%;
+    }
+    
+    50%{
+        opacity: 30%;
+    }
+    
+    100%{
+        opacity: 100%;
+    }
+    
+    }
+    
+    
+    .oculto{
+       opacity: 0;
+    }
+
+    .Botonera{
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+    .controladores{
+        margin-bottom: 3%;
+    }
+    
+    .cajasB{
+        display: flex;
+    justify-content: center;
+    }

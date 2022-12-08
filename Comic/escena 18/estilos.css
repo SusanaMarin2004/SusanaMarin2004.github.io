@@ -1,0 +1,121 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.viñeta{
+    display: flex;
+    justify-content: center;
+}
+
+.fondo{
+    width: 80%;
+    height: 93%;
+    position: relative;
+}
+
+.sala{
+    width: 100%;
+}
+
+.Hiro{
+    position: absolute;
+    width: 141px;
+    top: 165px;
+    left: 15%;
+}
+
+.pj1{
+    width: 100%;
+}
+
+
+.Hirowalk{
+    background: url(./media/Hirosteps.png);
+    position: absolute;
+    width: 284px;
+    height: 427px;
+    background-position: 0px;
+    top: 165px;
+    left: 15%;
+}
+
+.Caminado{
+    animation: movimiento 3s steps(6) forwards;
+}
+
+@keyframes movimiento{
+
+    0%{
+        background-position: 0px;
+        left: 15%;
+    }
+
+    100%{
+        background-position: -1709px;
+        left: 40%;
+    }
+
+}
+
+.shiori{
+    position: absolute;
+    width: 424px;
+    top: 298px;
+    z-index: 100;
+}
+
+.shiori img{
+    width: 100%;
+}
+
+
+.circulo{
+    position: absolute;
+    left: 14%;
+    top: 52%;
+    width: 7%;
+}
+.interaccion{
+    width: 100%;
+    cursor: pointer;
+}
+
+.titilar{
+    animation: titilando 1s forwards infinite;
+}
+
+
+@keyframes titilando{
+    0%{
+        opacity: 100%;
+    }
+    
+    50%{
+        opacity: 30%;
+    }
+    
+    100%{
+        opacity: 100%;
+    }
+    
+    }
+    
+    
+    .oculto{
+       opacity: 0;
+    }
+
+    .Botonera{
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+    .controladores{
+        margin-bottom: 3%;
+    }
+    
+    .cajasB{
+        display: flex;
+    justify-content: center;
+    }
