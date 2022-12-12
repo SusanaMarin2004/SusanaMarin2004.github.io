@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.viñeta{
+    display: flex;
+    justify-content: center;
+}
+
+.fondo{
+    width: 80%;
+    height: 93%;
+    position: relative;
+}
+.img{
+width: 100%;
+}
+
+.maqui{
+    position: absolute;
+    width: 8%;
+    top: 61%;
+    left: 22%;
+}
+
+.tela{
+    position: absolute;
+    width: 8%;
+    top: 66%;
+    left: 19%;
+}
+
+.cartucho{
+position: absolute;
+width: 100%;
+display: flex;
+justify-content: center;
+}
+.txt{
+    width: 35%;
+}
+
+
+.circulo{
+    position: absolute;
+    left: 21%;
+    top: 52%;
+    width: 5%;
+}
+.interaccion{
+    width: 100%;
+    cursor: pointer;
+}
+
+.titilar{
+    animation: titilando 1s forwards infinite;
+}
+
+
+@keyframes titilando{
+    0%{
+        opacity: 100%;
+    }
+    
+    50%{
+        opacity: 30%;
+    }
+    
+    100%{
+        opacity: 100%;
+    }
+    
+    }
+    
+    
+    .oculto{
+       opacity: 0;
+    }
+
+.maqui_move{
+    animation: maqui_humo 0.1s infinite linear;
+}
+@keyframes maqui_humo{
+    0%{
+        left: 22.1%;
+    }
+    50%{
+        left: 22%;
+    }
+    100%{
+        left: 22.1%;
+    }
+}
+
+.tela_move{
+    animation: tela_humo 2s infinite linear;
+}
+@keyframes tela_humo{
+    0%{
+        left: 19%;
+    }
+    50%{
+        left: 20%;
+    }
+    100%{
+        left: 21%;
+    }
+}
+
+.botonera{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.controladores{
+    margin-bottom: 3%;
+}
+
+.cajasB{
+    display: flex;
+justify-content: center;
+}
