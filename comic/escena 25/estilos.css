@@ -1,0 +1,188 @@
+.viñeta{
+ display: flex;
+ justify-content: center;
+}
+
+.fondo{
+    width: 80%;
+    height: 93%;
+    position: relative;
+}
+
+.agua{
+    width: 100%;
+}
+
+.burbuja1{
+    position: absolute;
+    top: 45%;
+    right: 60%;
+    width: 10%;
+}
+
+.burbuja1 img{
+width: 100%;
+}
+
+.agitar{
+    animation: mover 0.5s forwards infinite;
+}
+
+@keyframes mover {
+    
+    0%{
+        right: 60%;
+    }
+
+    50%{
+        right: 57%;
+    }
+
+    100%{
+        right: 60%;
+    }
+}
+
+.burbuja2{
+    position: absolute;
+    top: 70%;
+    right: 40%;
+    width: 15%;
+}
+
+.burbuja2 img{
+    width: 100%;
+}
+
+.agitar2{
+    animation: mover2 0.5s forwards infinite;
+}
+
+@keyframes mover2 {
+    
+    0%{
+        right: 40%;
+    }
+
+    50%{
+        right: 43%;
+    }
+
+    100%{
+        right: 40%;
+    }
+}
+
+.burbuja3{
+    position: absolute;
+    top: 50%;
+    right: 20%;
+    width: 7%;
+}
+
+.burbuja3 img{
+    width: 100%;
+    }
+
+    .agitar3{
+        animation: mover3 0.5s forwards infinite;
+    }
+    
+    @keyframes mover3 {
+        
+        0%{
+            right: 20%;
+        }
+    
+        50%{
+            right: 17%;
+        }
+    
+        100%{
+            right: 20%;
+        }
+    }
+    
+
+.burbuja4{
+    position: absolute;
+    top: 60%;
+    left: 10%;
+    width: 10%;
+}
+
+.burbuja4 img{
+width: 100%;
+}
+
+.agitar4{
+    animation: mover4 0.5s forwards infinite;
+}
+
+@keyframes mover4 {
+    
+    0%{
+        left: 10%;
+    }
+
+    50%{
+        left: 13%;
+    }
+
+    100%{
+        left: 10%;
+    }
+}
+
+
+
+
+
+.circulo{
+    position: absolute;
+    top: 50%;
+    width: 12%;
+}
+.interaccion{
+    width: 100%;
+    cursor: pointer;
+}
+
+.titilar{
+    animation: titilando 1s forwards infinite;
+}
+
+
+@keyframes titilando{
+    0%{
+        opacity: 100%;
+    }
+    
+    50%{
+        opacity: 30%;
+    }
+    
+    100%{
+        opacity: 100%;
+    }
+    
+    }
+    
+    
+    .oculto{
+       opacity: 0;
+    }
+
+    .Botonera{
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+    .controladores{
+        margin-bottom: 3%;
+    }
+    
+    .cajasB{
+        display: flex;
+    justify-content: center;
+    }
