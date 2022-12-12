@@ -1,0 +1,261 @@
+*{
+    padding: 0;
+}
+
+@font-face{
+    font-family: Chapaza;
+    src: url(./Typos/Chapaza.ttf);
+}
+
+
+.barra{
+    background-color: #7F080A;
+    height: 120px;
+    display: flex;
+
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+
+.linea{
+width: 100px;
+padding-left: 20px;
+
+}
+
+
+.logo{
+    height: 150px;
+    width: 20%;
+    margin-top: 0.4%;
+}
+.versi{
+    height: 110px;
+    cursor: pointer;
+    padding-left: 30%
+}
+
+.carousel-control-prev{
+  margin-top: 25%;
+}
+
+.carousel-control-next{
+  margin-top: 25%;
+  padding-left: 1rem;
+}
+.carousel-indicators{
+  margin-bottom: 8rem;
+}
+
+
+.carousel-inner{
+  width: 69rem !important;
+  height: 49rem;
+  margin: auto;
+}
+
+.todo{
+  background-image: url(./Media/fondo2.png);
+  padding-top: 200px;
+}
+
+nav{
+    padding-left: 270px;
+    padding-top: 35px;
+
+}
+.menunav{
+    font-family: Chapaza;
+    font-size: 28px;
+    display: grid;
+    grid-template-columns: .4fr .5fr 1fr 1fr;
+    gap: 60px;
+    padding-left: 90%;
+  
+
+}
+
+.menunav a{
+  color: white !important;
+  text-align: center;
+  text-decoration: none !important;
+  
+}
+
+.menunav a:hover{
+  opacity: 0.7;
+}
+
+
+
+
+
+.boton{
+    padding-left: 30px;
+    font-family: themacabre;
+    font-size: 30px;
+}
+button{
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #B5BB8F;
+    border-color: unset;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.boton-comic{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+
+.btn-primary{
+  color: aliceblue;
+}
+
+.imagennnn{
+  width: 510px;
+margin: auto;
+}
+
+.botonn{
+  width: 17rem;
+  height: 21.5rem;
+padding-left: 1rem;
+margin: 1.8rem;
+}
+.t_personajes{
+  text-align: center;
+  font-family: Chapaza;
+}
+.personaje1{
+  width: 4.5rem;
+}
+
+.personaje2{
+  width: 4rem;
+  margin-top: 1rem;
+}
+
+.personaje3{
+  width: 3.5rem;
+  margin-top: 2rem;
+}
+
+.personaje4{
+  width: 11rem;
+  margin-top: 2rem;
+  
+}
+.btn-danger {
+  color: #fff;
+  background-color: #7F0909;
+  border-color: black;
+  border-radius: 5%;
+}
+.btn-light {
+  color: rgb(0, 0, 0);
+  background-color: rgb(248, 249, 250);
+  border-color: #7F0909;
+  border-radius: 5%;
+}
+.linea-roja{
+width: 80%;
+}
+
+.linea-blanca{
+  width: 80%;
+}
+
+.linea-blanca2{
+  width: 80%;
+}
+
+.linea-roja2{
+  width: 80%;
+}
+
+.boton-comic{
+ padding-bottom: 5%;
+}
+
+.btn1-1{
+  margin-top: 50%;
+  font-family: Chapaza;
+  font-size: 1.5rem;
+}
+
+.btn:hover{
+  opacity: 0.9;
+}
+
+
+.liston{
+  width: 30%;
+}
+.titulo{
+  display: flex;
+  width: 100%;
+  padding-bottom: 5%;
+}
+.marca{
+  padding-top: 100px;
+}
+.integrantes{
+  padding-top: 100px;
+  padding-bottom: 100px;
+  width: 100%;
+}
+.seccion1{
+  background-color: white;
+}
+.texto{
+  width: 90%;
+  margin: auto;
+  font-family: Chapaza;
+}
+.nosotros{
+  width: 74rem;
+  height: 27rem;
+}
+.boton{
+padding-top: 100px;
+justify-content: center;
+}
+h1{
+  padding-top: 15px;
+  font-family: Chapaza;
+}
+.footer{
+  background-color: #7F0909;
+  padding-top: 15px;
+  height: 310px;
+}
+.logofooter{
+  width: 6rem;
+}
+.redes{
+  width: 4rem;
+}
+.redessociales{
+  padding-top: 30px;
+  gap: 15px;
+}
+.copyrights{
+  padding-top: 30px;
+}
+.copyrights h2{
+  font-family: Chapaza;
+  color: #878686;
+  font-size: 1.5rem;
+}
