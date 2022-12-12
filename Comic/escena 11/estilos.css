@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.viñeta{
+    display: flex;
+    justify-content: center;
+}
+
+.fondo{
+    width: 80%;
+    height: 93%;
+    position: relative;
+}
+
+.sala3d{
+    width: 100%;
+}
+
+.circulo-caja{
+    position: absolute;
+    width: 7%;
+    top: 50%;
+    right: 31.5%;
+}
+.circulo{
+    width: 100%;
+    cursor: pointer;
+}
+.circulo-anim{
+ animation: titilar 1s forwards infinite;
+}
+
+@keyframes titilar {
+    0%{
+        opacity: 100%;
+    }
+    
+    50%{
+        opacity: 0%;
+    }
+    
+    100%{
+        opacity: 100%;
+    }
+}
+
+.oculto{
+    display: none;
+}
+
+.botonera{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.controladores{
+    margin-bottom: 3%;
+}
+
+.cajasB{
+    display: flex;
+justify-content: center;
+}
